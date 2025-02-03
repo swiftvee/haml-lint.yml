@@ -1,0 +1,22 @@
+linters:
+  IdNames:
+    style: snake_case
+  InlineStyles:
+    enabled: false
+  LineLength:
+    max: 140
+  RuboCop:
+    ignored_cops: [
+      Layout/ArgumentAlignment,
+      Layout/FirstArrayElementLineBreak,
+      Layout/FirstHashElementLineBreak,
+      Layout/FirstMethodArgumentLineBreak,
+      Layout/HashAlignment,
+      Layout/MultilineOperationIndentation,
+      Style/IfUnlessModifier,
+      Style/Next
+    ]
+  SpaceInsideHashAttributes:
+    style: no_space
+  ViewLength:
+    max: 350
