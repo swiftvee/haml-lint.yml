@@ -19,4 +19,4 @@ linters:
   SpaceInsideHashAttributes:
     style: no_space
   ViewLength:
-    max: 350
+    max: 300
